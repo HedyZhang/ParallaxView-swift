@@ -13,6 +13,8 @@
 		535097DC1B0B32E600B4F35C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535097DB1B0B32E600B4F35C /* Images.xcassets */; };
 		535097DF1B0B32E600B4F35C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 535097DD1B0B32E600B4F35C /* LaunchScreen.xib */; };
 		535097EB1B0B32E600B4F35C /* ParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535097EA1B0B32E600B4F35C /* ParallaxViewTests.swift */; };
+		535097F61B0B333500B4F35C /* FriendsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 535097F41B0B333500B4F35C /* FriendsBackground.png */; };
+		535097F71B0B333500B4F35C /* ParallaxScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535097F51B0B333500B4F35C /* ParallaxScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		535097E41B0B32E600B4F35C /* ParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		535097E91B0B32E600B4F35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535097EA1B0B32E600B4F35C /* ParallaxViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewTests.swift; sourceTree = "<group>"; };
+		535097F41B0B333500B4F35C /* FriendsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendsBackground.png; sourceTree = "<group>"; };
+		535097F51B0B333500B4F35C /* ParallaxScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				535097D41B0B32E600B4F35C /* AppDelegate.swift */,
 				535097D61B0B32E600B4F35C /* ViewController.swift */,
+				535097F51B0B333500B4F35C /* ParallaxScrollView.swift */,
+				535097F41B0B333500B4F35C /* FriendsBackground.png */,
 				535097D81B0B32E600B4F35C /* Main.storyboard */,
 				535097DB1B0B32E600B4F35C /* Images.xcassets */,
 				535097DD1B0B32E600B4F35C /* LaunchScreen.xib */,
@@ -195,6 +201,7 @@
 				535097DA1B0B32E600B4F35C /* Main.storyboard in Resources */,
 				535097DF1B0B32E600B4F35C /* LaunchScreen.xib in Resources */,
 				535097DC1B0B32E600B4F35C /* Images.xcassets in Resources */,
+				535097F61B0B333500B4F35C /* FriendsBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535097F71B0B333500B4F35C /* ParallaxScrollView.swift in Sources */,
 				535097D71B0B32E600B4F35C /* ViewController.swift in Sources */,
 				535097D51B0B32E600B4F35C /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				535097F01B0B32E600B4F35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		535097F11B0B32E600B4F35C /* Build configuration list for PBXNativeTarget "ParallaxViewTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				535097F31B0B32E600B4F35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
