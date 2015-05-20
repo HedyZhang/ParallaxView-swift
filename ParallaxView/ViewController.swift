@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     lazy var headView:ParallaxScrollView = {
         let aview = ParallaxScrollView.parallaxHeaderView(image: UIImage(named: "FriendsBackground")!, forSize:CGSize(width: self.dataTableView!.frame.size.width, height: 300));
+        var AView = ParallaxScrollView()
         return aview;
         
         }();

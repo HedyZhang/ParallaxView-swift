@@ -10,13 +10,13 @@ import UIKit
 
 class ParallaxScrollView: UIView
 {
-    var offset:CGPoint = CGPointZero;
-    var headerImage:UIImage?;
-    private var imageScrollView:UIScrollView?;
-    private var imageView:UIImageView?;
-    private let kParallaxDeltaFactor:CGFloat = 0.5;
+   private var offset:CGPoint = CGPointZero;
+   private var headerImage:UIImage?;
+   private var imageScrollView:UIScrollView?;
+   private var imageView:UIImageView?;
+   private let kParallaxDeltaFactor:CGFloat = 0.5;
     
-    required  init(coder aDecoder: NSCoder)
+    required init(coder aDecoder: NSCoder)
     {
         super.init(coder: aDecoder);
     }
@@ -31,7 +31,7 @@ class ParallaxScrollView: UIView
         headerView.initialSetupForDefaultHeader();
         return headerView;
     }
-    func initialSetupForDefaultHeader()
+    private func initialSetupForDefaultHeader()
     {
         self.imageScrollView = UIScrollView(frame: self.bounds);
         self.imageView = UIImageView(frame: self.imageScrollView!.bounds);

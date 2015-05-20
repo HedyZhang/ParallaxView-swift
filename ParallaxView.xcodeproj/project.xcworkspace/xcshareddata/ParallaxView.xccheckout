@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B99AB568-A4C7-4F70-AE9A-9B5BF8809271</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParallaxView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D99179F6B3B3AC663EF5A7194AD1DC19BA269C63</key>
+		<string>https://github.com/hehe19900512/ParallaxView-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParallaxView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D99179F6B3B3AC663EF5A7194AD1DC19BA269C63</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hehe19900512/ParallaxView-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D99179F6B3B3AC663EF5A7194AD1DC19BA269C63</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D99179F6B3B3AC663EF5A7194AD1DC19BA269C63</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParallaxView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
