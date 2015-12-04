@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var dataTableView: UITableView?;
     required init(coder aDecoder: NSCoder)
     {
-        super.init(coder: aDecoder);
+        super.init(coder: aDecoder)!;
     }
 
     override func viewDidLoad() {
@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCellWithIdentifier(Identifier) as! UITableViewCell;
+        let cell = tableView.dequeueReusableCellWithIdentifier(Identifier)! as UITableViewCell;
         cell.textLabel!.text = "\(indexPath.row)";
         
         return cell;

@@ -18,13 +18,13 @@ class ParallaxScrollView: UIView
     
     required init(coder aDecoder: NSCoder)
     {
-        super.init(coder: aDecoder);
+        super.init(coder: aDecoder)!;
     }
     override init(frame: CGRect)
     {
         super.init(frame: frame);
     }
-    class func parallaxHeaderView(#image: UIImage, forSize headerSize: CGSize) -> ParallaxScrollView
+    class func parallaxHeaderView(image image: UIImage, forSize headerSize: CGSize) -> ParallaxScrollView
     {
         let headerView = ParallaxScrollView(frame: CGRect(origin: CGPointZero, size: headerSize));
         headerView.headerImage = image;
@@ -35,7 +35,7 @@ class ParallaxScrollView: UIView
     {
         self.imageScrollView = UIScrollView(frame: self.bounds);
         self.imageView = UIImageView(frame: self.imageScrollView!.bounds);
-        self.imageView!.autoresizingMask = .FlexibleLeftMargin | .FlexibleRightMargin | .FlexibleTopMargin | .FlexibleBottomMargin | .FlexibleWidth | .FlexibleHeight;
+        self.imageView!.autoresizingMask = [UIViewAutoresizing.FlexibleLeftMargin, UIViewAutoresizing.FlexibleRightMargin , UIViewAutoresizing.FlexibleTopMargin , UIViewAutoresizing.FlexibleBottomMargin , UIViewAutoresizing.FlexibleWidth , UIViewAutoresizing.FlexibleHeight];
         self.imageView!.contentMode = UIViewContentMode.ScaleAspectFill;
         self.imageView!.image = self.headerImage;
         self.imageScrollView!.addSubview(imageView!);
